@@ -1,0 +1,12 @@
+a.tb-bookmark-btn { padding: 0; color: #5bb5ba; line-height: 1; display: inline-block; }
+a.tb-bookmark-btn:hover { color: #5bb5ba; }
+a.tb-bookmark-btn i { font-size: 21px; position: relative; top: 2px; }
+.saved-articles-list { list-style: none; padding: 0; }
+.saved-articles-list li { zoom: 1; border-top: 1px solid rgba(0, 0, 0, 0.2); padding: .75em 0; margin: 0 }
+.saved-articles-list li:before,
+.saved-articles-list li:after { content: " "; display: table; }
+.saved-articles-list li:after { clear: both; }
+.saved-articles-list li img { float: left; margin-right: 1em; }
+a.clear-save-article { border: 1px solid #5BB5BA; padding: 12px 24px; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; color: #148289; transition: all 0.3s;
+}
+a.clear-save-article:hover { text-decoration: none; color: #fff; background: #148289; border-color: #148289; }
